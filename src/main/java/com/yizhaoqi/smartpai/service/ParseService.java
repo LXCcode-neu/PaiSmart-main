@@ -188,7 +188,7 @@ public class ParseService {
             vector.setTextContent(chunk);
             vector.setUserId(userId);
             vector.setOrgTag(orgTag);
-            vector.setPublic(isPublic);
+            //vector.setPublic(isPublic);
             documentVectorRepository.save(vector);
         }
         logger.info("成功保存 {} 个子切片到数据库", chunks.size());

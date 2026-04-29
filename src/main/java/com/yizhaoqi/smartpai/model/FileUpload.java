@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
  */
 @Data
 @Entity
-@Table(name = "file_upload")
+@Table(name = "file_upload" )
 public class FileUpload {
     /**
      * 文件的唯一标识符
